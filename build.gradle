@@ -2,7 +2,7 @@ plugins {
     id 'java-gradle-plugin'
     id 'eclipse'
     id 'maven-publish'
-    //id 'gradle-key-encryption-plugin' version '0.1'
+    id 'gradle-key-encryption-plugin' version '0.1'
 }
 
 group 'net.fuzzo'
@@ -12,9 +12,11 @@ repositories {
     mavenCentral()
 }
 
+/*
 dependencies {
 	implementation 'dev.gradleplugins:gradle-api:7.6'
 }
+*/
 
 testing {
     suites {
