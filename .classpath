@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/main" kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/test/java">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/test/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/functionalTest" kind="src" path="src/functionalTest/java">
+		<attributes>
+			<attribute name="gradle_scope" value="functionalTest"/>
+			<attribute name="gradle_used_by_scope" value="functionalTest"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-19/"/>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.8.2/26d07692b618b8da29479febec7d55e18107ee48/junit-jupiter-params-5.8.2-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.8.2/ddeafe92fc263f895bfb73ffeca7fd56e23c2cce/junit-jupiter-params-5.8.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.8.2/429d353563c5fb35a3d47076bedbf75161e976c2/junit-jupiter-api-5.8.2-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.8.2/4c21029217adf07e4c0d0c5e192b6bf610c94bdc/junit-jupiter-api-5.8.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.8.2/386b61876dd33d0ef0381189d3c1db9455d99659/junit-platform-commons-1.8.2-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.8.2/32c8b8617c1342376fd5af2053da6410d8866861/junit-platform-commons-1.8.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.8.2/5fd01c33132462aab3905cb74bd1097a713ab91a/junit-jupiter-5.8.2-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.8.2/5a817b1e63f1217e5c586090c45e681281f097ad/junit-jupiter-5.8.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/41d55b3c2254de9837b4ec8923cbd371b8a7eab5/opentest4j-1.2.0-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/e0787a997746ac32639e0bf3cb27af8dce8a3428/apiguardian-api-1.1.2-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/a231e0d844d2721b0fa1b238006d15c6ded6842a/apiguardian-api-1.1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/dev.gradleplugins/gradle-api/7.6/f710d11d38022fdf9b560a155d439833f40c25e8/gradle-api-7.6-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/dev.gradleplugins/gradle-api/7.6/e00fd237e23eb7c5c23132f17cdc394defa12def/gradle-api-7.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/3.0.13/ab1111c7d3de6d597d5bebf6972c9c516829568c/groovy-all-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/3.0.13/78ef859992a2e70f496c110f331cf136caa786d8/groovy-all-3.0.13.pom">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test-junit5/3.0.13/c0011b82f7a348619a860f09c1e6b476e84bbd61/groovy-test-junit5-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test-junit5/3.0.13/84293a99c67c76b0f732dc48f9005104ab7be7e1/groovy-test-junit5-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.8.2/ea87fe3d752e24397f71f347872e79a89c61a704/junit-jupiter-engine-5.8.2-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.8.2/c598b4328d2f397194d11df3b1648d68d7d990e3/junit-jupiter-engine-5.8.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.8.2/6cb79f38fd8b2b753d274d80edf00a7462d75461/junit-platform-launcher-1.8.2-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.8.2/c334fcee82b81311ab5c426ec2d52d467c8d0b28/junit-platform-launcher-1.8.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.8.2/ef25ff956479198a71a7d1b23e11f27fb09393b6/junit-platform-engine-1.8.2-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.8.2/b737de09f19864bd136805c84df7999a142fec29/junit-platform-engine-1.8.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.7.10/a47f6071d3ba1c695174371ffeb95ac2df2089a5/kotlin-stdlib-1.7.10-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.7.10/d2abf9e77736acc4450dc4a3f707fa2c10f5099d/kotlin-stdlib-1.7.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-ant/3.0.13/264360bc36c1bc4617ffd7be3974d84508529645/groovy-ant-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-ant/3.0.13/cc678dcf27865beca22f34f7aaa6f55ed758aed9/groovy-ant-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-astbuilder/3.0.13/2c6f4b4ac502748db728da10d8d98d3700666cb1/groovy-astbuilder-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-astbuilder/3.0.13/ebe016e63eadee0ebbf7e7577afcbaceac1f4bd1/groovy-astbuilder-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-cli-picocli/3.0.13/30092c68ef2095e48cea826d67d961740c04ed50/groovy-cli-picocli-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-cli-picocli/3.0.13/7766d657eefe94e4ab075455670303f103c013d7/groovy-cli-picocli-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovysh/3.0.13/dfef78d76bb6bcc3ee7f5121c14d1a692f8c48d1/groovy-groovysh-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovysh/3.0.13/c72e585b45e5a4d4f1e064d53d74c471946d2ecd/groovy-groovysh-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-console/3.0.13/ddd63e2cac56e9a301a5c8a93164cdefa2b67bb8/groovy-console-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-console/3.0.13/a8ac4175c0caf3f0dcd7043c12018221bd721518/groovy-console-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-datetime/3.0.13/3b72eaf4f1cfd0b3f3479ffee655f19c07a1a52b/groovy-datetime-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-datetime/3.0.13/3972605a47902d151de3589fd22a8b273dbaafe0/groovy-datetime-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovydoc/3.0.13/553d55aa4948224a5ea6ebfa49a49cfa42aa4567/groovy-groovydoc-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovydoc/3.0.13/a4b555880575a434c6434a81ea68d1f251349057/groovy-groovydoc-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-docgenerator/3.0.13/ba6cac0279718f25547f51e2460bfbcabaed6ee3/groovy-docgenerator-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-docgenerator/3.0.13/88e261365671780ef7fd662b781ca815215822e4/groovy-docgenerator-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-jmx/3.0.13/6324b261ae04914231c7170e7eb2819d88676ba3/groovy-jmx-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-jmx/3.0.13/e07017f8941a4828bbd1896240fe02915e3afeb3/groovy-jmx-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/3.0.13/1a87500c1500990559a403e0f1e8536fb177d678/groovy-json-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/3.0.13/21a3d9aeaf975d40d82c4d497e29d9feff066292/groovy-json-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-jsr223/3.0.13/1b0f3592c84ddf20d5db67579f69c1f995b42c12/groovy-jsr223-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-jsr223/3.0.13/82cc4b8192f4b761d0684538a92456535f4d0237/groovy-jsr223-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-macro/3.0.13/db6d3dc2b41831d9d015da608462202497c43d9a/groovy-macro-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-macro/3.0.13/2c837e4238013e761455c1acd1b554b9ba2633ae/groovy-macro-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-nio/3.0.13/401c13148098941d1570f1506b61bc55af685228/groovy-nio-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-nio/3.0.13/bfdc9d5c9ca5dc1efb0f9543dd732b7c20647fcd/groovy-nio-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-servlet/3.0.13/f14fc04f2c396d3317afcadc041f09f2afa851f4/groovy-servlet-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-servlet/3.0.13/a20c6d95b55b3d86fea39349ec6a1f64cf9e1671/groovy-servlet-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-sql/3.0.13/441b6f238bfd4be065ca5c045aa3303bf6a37b86/groovy-sql-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-sql/3.0.13/462cadc88685ec7e9f0ba7b23c170bb7cf296c0f/groovy-sql-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-swing/3.0.13/f9113b5f219d3c7021d09a11dff37a98e6720b48/groovy-swing-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-swing/3.0.13/6d4d9d04631c06aa2082fb065f4636dcdafb02cc/groovy-swing-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-templates/3.0.13/91245469afa41a35d363d7f552e6ecb65fe04a0/groovy-templates-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-templates/3.0.13/fa252df34a67831060c47fd5e00099b6cbef2e31/groovy-templates-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test/3.0.13/db743962e57a9c37e9ee7e7301e3a977a8d5da08/groovy-test-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test/3.0.13/11cb6de55e4175a8f066959b8c5e89e0461192a9/groovy-test-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-testng/3.0.13/5711b5d22ece6d764e2818a9cf83c5f423427214/groovy-testng-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-testng/3.0.13/2ea51aec5e163f963908b43425547d674537a097/groovy-testng-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/3.0.13/97df3ca0505ca9531ad2a637198c01226629538e/groovy-xml-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/3.0.13/ddfcf27160748971f2d3aafc00ede067da2f5ee9/groovy-xml-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/3.0.13/436fb4f061a03bc904cfb9a9cc6e61ea91add074/groovy-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/3.0.13/7652b22000c2cebbfdcfdf530a64e41baa518cb/groovy-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.7.10/60408164a8fbfb0ae8febb3413e2f4bf5a06c97f/kotlin-stdlib-common-1.7.10-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.7.10/bac80c520d0a9e3f3673bc2658c6ed02ef45a76a/kotlin-stdlib-common-1.7.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-junit/1.10.12/1be188d9419a1f8148d1dc4f6a8308f746a66880/ant-junit-1.10.12-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-junit/1.10.12/81bde3486c2ed79cb6f699c2a5a77b0340d1f2e8/ant-junit-1.10.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.10.12/3efd45223b70acda49fad3c0983ad2a1468f7628/ant-1.10.12-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.10.12/be08c4f63e92e03bac761404cf77bc270928b6c5/ant-1.10.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-launcher/1.10.12/d8d34c474280b9dddaa47366c0c891122b2c6861/ant-launcher-1.10.12-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-launcher/1.10.12/e090b4f9d3ecf45491cc16e759f1e843a1a224c0/ant-launcher-1.10.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-antlr/1.10.12/92cae619d533640dce608d072a1df734d591cbb0/ant-antlr-1.10.12-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-antlr/1.10.12/74b17ef7229f3d7c0d55d42486889cc553ab04d6/ant-antlr-1.10.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/info.picocli/picocli/4.6.3/c2cf5e857500c2e8429621856f7e86add62adda5/picocli-4.6.3-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/info.picocli/picocli/4.6.3/18177f4c3d65cc94e6d4039775ec5aed8089f8d0/picocli-4.6.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/com.thoughtworks.qdox/qdox/1.12.1/a284148a118e10bb84598dfb83f19d1ff128afad/qdox-1.12.1-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/com.thoughtworks.qdox/qdox/1.12.1/f7122f6ab1f64bdf9f5970b0e89bfb355e036897/qdox-1.12.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.24.2/c2c8cc75a6a9134e843d26d5b0a81792db8eeafa/javaparser-core-3.24.2-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.24.2/3ace42470c37f88f78edc7ca23bc45b76d381741/javaparser-core-3.24.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/jline/jline/2.14.6/e93dc55cf5b6f201e850ed339fa52e50d51105d5/jline-2.14.6-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/jline/jline/2.14.6/c3aeac59c022bdc497c8c48ed86fa50450e4896a/jline-2.14.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/33987872a811fe4d4001ed494b07854822257f42/junit-4.13.2-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.5/1884aca4c105c5fa982f8512c2c22a873246a8de/testng-7.5-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.5/1416a607fae667c14e390b484e8d02b5824c0674/testng-7.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.32/4381b152f738580aef4e436b2692a3db30609b26/slf4j-api-1.7.32-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.32/cdcff33940d9f2de763bc41ea05a0be5941176c3/slf4j-api-1.7.32.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.78/3b3dc3730f4d623904afc62a463ae18710a889d3/jcommander-1.78-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.78/a3927de9bd6f351429bcf763712c9890629d8f51/jcommander-1.78.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.webjars/jquery/3.5.1/67e674e2c5c16e92e66971c2bee2739f0b833723/jquery-3.5.1-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.webjars/jquery/3.5.1/2392938e374f561c27c53872bdc9b6b351b6ba34/jquery-3.5.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.9.1/f48e6a3bc9ac5acdde88951f83beb44adc78c8c5/junit-jupiter-params-5.9.1-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.9.1/ffcd1013edaeee112be11fcddeb38882d79238de/junit-jupiter-params-5.9.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.9.1/ba8516b330a32b4957cdc6ad0cd1a594ec154fd2/junit-jupiter-api-5.9.1-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.9.1/7bb53fbc0173e9f6a9d21d58297af94b1f2f9ce1/junit-jupiter-api-5.9.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.9.1/5d2f1078b36f69b0cbacc1efdbf073517c0c7d33/junit-platform-commons-1.9.1-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.9.1/3145f821b5cd10abcdc5f925baa5fffa6f1b628f/junit-platform-commons-1.9.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.9.1/5fd01c33132462aab3905cb74bd1097a713ab91a/junit-jupiter-5.9.1-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.9.1/9274d3757e224bc02eae367bd481062a263c150b/junit-jupiter-5.9.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.9.1/bc082b8e8a1f40d6846fccb59867c6524bf08155/junit-jupiter-engine-5.9.1-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.9.1/1bf771097bde296c3ab174861954e8aafaaf2e94/junit-jupiter-engine-5.9.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.9.1/d5679a91eba86a856998e08b1f8bad0f1be1d722/junit-platform-launcher-1.9.1-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.9.1/b4534f5130dcfb10e8ac41a5fba6ec656c9ede06/junit-platform-launcher-1.9.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.9.1/bda902e43fe1f62674224452defd31f4c251e29d/junit-platform-engine-1.9.1-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.9.1/83591e5089d6cea5f324aa3ecca9b19d5a275803/junit-platform-engine-1.9.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Marco/.gradle/caches/7.6/generated-gradle-jars/gradle-test-kit-7.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Marco/.gradle/caches/7.6/generated-gradle-jars/gradle-api-7.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/3.0.13/436fb4f061a03bc904cfb9a9cc6e61ea91add074/groovy-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/groovy-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-ant/3.0.13/264360bc36c1bc4617ffd7be3974d84508529645/groovy-ant-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/groovy-ant-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-astbuilder/3.0.13/2c6f4b4ac502748db728da10d8d98d3700666cb1/groovy-astbuilder-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/groovy-astbuilder-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-console/3.0.13/ddd63e2cac56e9a301a5c8a93164cdefa2b67bb8/groovy-console-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/groovy-console-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-datetime/3.0.13/3b72eaf4f1cfd0b3f3479ffee655f19c07a1a52b/groovy-datetime-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/groovy-datetime-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-dateutil/3.0.13/8c210cdd49e8b34f458f539477a5f3874fcf9ea5/groovy-dateutil-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/groovy-dateutil-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovydoc/3.0.13/553d55aa4948224a5ea6ebfa49a49cfa42aa4567/groovy-groovydoc-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/groovy-groovydoc-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/3.0.13/1a87500c1500990559a403e0f1e8536fb177d678/groovy-json-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/groovy-json-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-nio/3.0.13/401c13148098941d1570f1506b61bc55af685228/groovy-nio-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/groovy-nio-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-sql/3.0.13/441b6f238bfd4be065ca5c045aa3303bf6a37b86/groovy-sql-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/groovy-sql-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-templates/3.0.13/91245469afa41a35d363d7f552e6ecb65fe04a0/groovy-templates-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/groovy-templates-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test/3.0.13/db743962e57a9c37e9ee7e7301e3a977a8d5da08/groovy-test-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/groovy-test-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Marco/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/3.0.13/97df3ca0505ca9531ad2a637198c01226629538e/groovy-xml-3.0.13-sources.jar" kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/groovy-xml-3.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/javaparser-core-3.17.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/kotlin-stdlib-1.7.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/kotlin-stdlib-common-1.7.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/kotlin-reflect-1.7.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/kotlin-stdlib-jdk7-1.7.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/kotlin-stdlib-jdk8-1.7.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Marco/.gradle/wrapper/dists/gradle-7.6-bin/9l9tetv7ltxvx3i8an4pb86ye/gradle-7.6/lib/gradle-installation-beacon-7.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,main,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Sviluppo/Git/gradle-key-encryption-plugin/build/pluginUnderTestMetadata">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+</classpath>
